@@ -1,0 +1,35 @@
+body{
+    
+  text-align:center;
+  background: linear-gradient(#18c479 0%,#d905fa 100%);
+}
+img{  
+  width:150px;
+  height:;
+}
+.menu{
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    
+ z-index: 10; 
+    list-style: none;
+}
+.item{
+    padding-left: 9px;
+    padding-right: 9px;
+    float: left;
+}
+h2{
+    font-family: 'Pacifico', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color: deeppink;
+}
